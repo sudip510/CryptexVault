@@ -1,7 +1,6 @@
 import { AnimatedBackground } from '@/components/animated-background'
 import { Navbar } from '@/components/navbar'
 import { HeroSection } from '@/components/hero-section'
-import { StatsSection } from '@/components/stats-section'
 import { FeaturesSection } from '@/components/features-section'
 import { HowItWorksSection } from '@/components/how-it-works-section'
 import { SecuritySection } from '@/components/security-section'
@@ -20,7 +19,6 @@ export default function Home() {
       <AnimatedBackground />
       <Navbar />
       <HeroSection />
-      <StatsSection />
       <FeaturesSection />
       <HowItWorksSection />
       <SecuritySection />
